@@ -12,7 +12,6 @@ final class IdentityCoreLivewireServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'identity-core-livewire');
-        Livewire\Livewire::component('identity-core-livewire-overview', Liberu\Foundation\IdentityCoreLivewire\Livewire\Overview::class);
+        Livewire::component('identity-core-livewire-overview', Liberu\Foundation\IdentityCoreLivewire\Livewire\Overview::class);
     }
 }
-

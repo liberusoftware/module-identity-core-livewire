@@ -3,7 +3,7 @@
   "name": "identity-core-livewire",
   "display_name": "Identity Livewire",
   "description": "Identity livewire presentation adapter.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "presentation",
   "provider": "Liberu\\Foundation\\IdentityCoreLivewire\\IdentityCoreLivewireServiceProvider",
   "requires": {
@@ -24,4 +24,3 @@
     "Accessible loading, empty, denied, and failure states"
   ]
 }
-
